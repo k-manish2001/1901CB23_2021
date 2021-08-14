@@ -1,2 +1,2 @@
-# Manish_Python
-Repository for CS384 
+# tuts_2021
+CS384 Tuts Projects
