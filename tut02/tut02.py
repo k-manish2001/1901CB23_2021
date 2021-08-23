@@ -2,17 +2,15 @@ def get_memory_score(input_nums):  # main function
      a=[] #array-1
      b=[] #array-2
      score=0
-     check=False
 
      # checking the input
 
      for i in range(len(input_nums)):
           if type(input_nums[i])!= int:
                a.append(input_nums[i])
-               check=True
           else:
                continue
-     if check:
+     
           print('Please enter a valid input list. Invalid inputs are', a)  
           return
      else: 
